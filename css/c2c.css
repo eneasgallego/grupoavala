@@ -1,0 +1,100 @@
+@font-face 
+{
+    font-family: "bebas";
+    src: url(../fonts/BebasNeue_Bold.ttf) format("truetype");
+}
+
+body
+{
+	//background-color: rgb(2,69,134);
+	margin: 0;
+	overflow: hidden;
+}
+
+#div_formulario_c2c
+{
+	background-color: rgb(180,34,24);
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+	//border-color: rgb(180,34,24);
+	border-color: white;
+	border-width: 3px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#introducir_telefono_c2c
+{
+	margin: 2px 0 2px 0;
+}
+
+input
+{
+	margin: 2px 0 2px 0;
+}
+
+.error
+{
+	background-color: rgb(2,69,134);
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+	border-color: rgb(180,34,24);
+	border-width: 3px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	//text-transform: uppercase;
+	margin-top: 1px;
+	margin-bottom: 2px;
+}
+#msg_c2c
+{
+	background-color: rgb(2,69,134);
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+	border-color: rgb(180,34,24);
+	border-width: 3px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	//text-transform: uppercase;
+	margin-top: 1px;
+	margin-bottom: 2px;
+	display: none;
+}
+.notice_c2c
+{
+	background-color: rgb(2,69,134);
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+	border-color: rgb(180,34,24);
+	border-width: 3px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	//text-transform: uppercase;
+	margin-top: 1px;
+	margin-bottom: 2px;
+}

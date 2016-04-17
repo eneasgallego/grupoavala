@@ -1,0 +1,275 @@
+@font-face {
+    font-family: "fuenteAvala";
+    src: url("../fonts/fuenteAvala.ttf") format("truetype");
+}
+@font-face {
+    font-family: "bebas";
+    src: url("../fonts/BebasNeue_Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "bebasBold";
+    src: url("../fonts/BebasNeue_Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "myriad";
+    src: url("../fonts/MyriadPro_Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "baron";
+    src: url("../fonts/BaronNeue_Bold.otf") format("opentype");
+}
+a {
+    text-decoration: none;
+}
+a img {
+    border-width: 0;
+}
+.body {
+    background-color: #E9E9E9;
+}
+.global-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+#cabecera {
+    background-color: rgb(2, 69, 134);
+    background-image: url("../images/logo.png");
+    background-position: 52px 17px;
+    background-repeat: no-repeat;
+    border-top: 17px solid rgb(17, 30, 67);
+    color: white;
+    font-family: bebas;
+    height: 168px;
+    text-align: right;
+}
+#cabecera-movil {
+    font-size: 36pt;
+    margin-right: 35px;
+    text-shadow: 5px 5px #012d58;
+    height: 40%;
+    margin-top: 4px;
+}
+#cabecera-movil a {
+    color: #fff;
+}
+#cabecera-tfno {
+    font-size: 60pt;
+    margin-right: 35px;
+    text-shadow: 5px 5px #012d58;
+    height: 60%;
+}
+#cabecera-tfno a {
+    color: #fff;
+}
+#pie {
+    background-color: rgb(2, 69, 134);
+    color: #fff;
+    font-family: myriad;
+    padding-top: 10px;
+    font-size: 8pt;
+    background-image: url(images/logoPie.png);
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: padding-box;
+    display: table-cell;
+    vertical-align: middle;
+}
+#pie p {
+    margin: 0px;
+    padding: 10px 430px 10px 10px;
+}
+#texto_privacidad {
+    background-color: #fff;
+    cursor: pointer;
+    display: none;
+    height: 50%;
+    left: 25%;
+    padding: 2%;
+    position: fixed;
+    top: 25%;
+    width: 50%;
+}
+#fondo_texto_privacidad {
+    background-color: #000;
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#content-title {
+    text-align: center;
+    font-family: fuenteAvala;
+    color: rgb(2, 69, 134);
+    font-size: 72pt;
+    background-color:  white;
+}
+#content {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #024586 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#024586)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#024586 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#024586 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#024586 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#024586 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#024586',GradientType=0 ); /* IE6-9 */
+
+    min-height: 100px;
+}
+#fondo-images {
+    background-color: white;
+    margin-left: 20px;
+    width: 680px;
+    height: 570px;
+    position: relative;
+    display: inline-block;
+}
+#image1 {
+    background-image: url(images/image1.png);
+    width: 400px;
+    height: 299px;
+    position: absolute;
+    left: 280px;
+}
+#image2 {
+    background-image: url(images/image2.png);
+    width: 250px;
+    height: 266px;
+    position: absolute;
+    left: -28px;
+}
+#image3 {
+    background-image: url(images/image3.png);
+    width: 300px;
+    height: 231px;
+    position: absolute;
+    left: 370px;
+    top: 265px;
+}
+#image4 {
+    background-color: white;
+    padding: 4px;
+    position: absolute;
+    left: 30px;
+    top: 290px;
+}
+#image5 {
+    //background-color: white;
+    padding: 4px;
+    position: absolute;
+    left: 355px;
+    top: 490px;
+}
+#image5 img {
+    width: 75px;
+}
+#image6 {
+    background-image: url(images/image6.png);
+    width: 151px;
+    height: 150px;
+    position: absolute;
+    left: 230px;
+    top: 135px;
+}
+
+#form {
+    display: inline-block;
+    //background-color: greenyellow;
+    height: 570px;
+    width: 480px;
+    text-align: center;
+    vertical-align: top;
+}
+#form ul {
+    list-style: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+    color: rgb(2, 69, 134);
+    margin: 0;
+}
+.texto_rojo {
+    background-color: rgb(180, 34, 24);
+    color: white;
+}
+.texto_rojo_hover{
+    background-color: rgb(180, 34, 24);
+    color: white;
+}
+.texto_rojo_hover:hover{
+    color: rgb(180, 34, 24);
+    background-color: white;
+}
+.pop-up a{
+    font-family: fuenteAvala;
+    font-size: 20pt;
+    padding: 8px 2px;
+}
+.pop-up img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(180, 34, 24);
+    border-radius: 90px;
+    vertical-align: middle;
+}
+.pop-up iframe {
+    margin-top: -8px;
+    border: none;
+    display: none;
+}
+form {
+    width: 90%;
+    margin: 4px auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 8px 0;
+    background-color: rgb(2, 69, 134);
+    color: white;
+    font-family: Arial;
+}
+form ul {
+    padding: 0;
+    color: white !important;
+}
+form ul li{
+    width: 90%;
+    margin: 4px 5% 0 5%;
+}
+.form_title {
+    text-align: left;
+    padding-left: 8px;
+}
+form ul li input[type=text], input[type=email], input[type=tel] {
+    font-size: 1em;
+    width: 100%;
+}
+form ul li select {
+    font-size: 1em;
+    width: 101.5%;
+}
+#privacidad {
+    font-size: 0.5em;
+}
+#obligatorios {
+    font-size: 0.5em;
+}
+#privacidad a{
+    color: white;
+}
+form ul li input[type=checkbox] {
+    margin: 4px;
+}
+form ul li input[type=submit] {
+    margin: 4px 5% 0 5%;
+    font-size: 1em;
+    width: 90%;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 8px 0;
+}

@@ -1,0 +1,63 @@
+#u83-4,#u82-4
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#u74-4_img,#u75-4_img,#u76-4_img,#u77-4_img,#u78-4_img,#u79-4_img,#u80-4_img,#u81-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u69,#u73,#u106
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #235AA9;
+	position: relative;
+}
+
+#u70,#u107
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #333366;
+	position: relative;
+}
+
+#u108-4
+{
+	text-align: center;
+	font-size: 10px;
+	color: #FFFFFF;
+	line-height: 12px;
+	position: relative;
+}
+
+#u71,#u84,#u86,#u88,#u74-4,#u75-4,#u76-4,#u77-4,#u78-4,#u79-4,#u80-4,#u81-4,#u111,#u109-16,#u110-14
+{
+	position: relative;
+}
+
+#u109-2,#u109-3,#u110-2
+{
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+#u110-3
+{
+	font-size: 6px;
+	line-height: 11px;
+	color: #FFFFFF;
+}
+
+#u109-5,#u109-7,#u109-9,#u109-11,#u109-12,#u109-13,#u110-5,#u110-7,#u110-9,#u110-11
+{
+	line-height: 25px;
+	color: #FFFFFF;
+}
+

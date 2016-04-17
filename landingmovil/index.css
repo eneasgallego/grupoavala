@@ -1,0 +1,171 @@
+a {
+	text-decoration: none;
+}
+.global {
+	width: 300px;
+	margin: 0 auto;
+	font-family: arial;
+	color: white;
+	font-stretch: ultra-condensed;
+	font-size: 0.9em;
+}
+
+#body {
+	padding: 0 0 4 0;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #024586 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#024586)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#024586 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#024586 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#024586 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#024586 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#024586',GradientType=0 ); /* IE6-9 */
+}
+#head {
+	background-color: #024586;
+	border-top-color: #111e43;
+	border-top-style: solid;
+	border-top-width: 8px;
+	padding-top: 4px;
+}
+#body>img, #llegar>img {
+	float: left;
+	margin: 4;
+}
+#llamar {
+	float: right;
+	width: 45%;
+	margin: 4;
+}
+.llamar {
+	float: right;
+	font-size: 1.2em;
+//	line-height: 34px;
+	color: white;
+}
+div.llamar {
+	float: right;
+	font-size: 0.9em;
+}
+.frase {
+	width: 100%;
+	text-align: center;
+	//margin-top: 4px;
+	color: rgb(2, 69, 134);
+	//background-color: white;
+	padding: 4px 0;
+	font-size: 1.3em;
+	clear: both;
+}
+.frase>h1 {
+	color: white;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 4px;
+	margin: 0 0 4 0;
+}
+.frase>p {
+	color: white;
+	font-size: 0.5em;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 4px;
+	margin: 0 0 4 0;
+}
+.frase3{
+	width: 30%;
+	text-align: center;
+	color: rgb(2, 69, 134);
+	background-color: white;
+	padding: 4px 2px;
+	font-size: 0.5em;
+	display: inline-block;
+	overflow: visible;
+	background-color: #024586;
+	color: white;
+	box-shadow: -2px 2px 5px #111e43;
+}
+.red_title {
+	background-color: #b52318;
+	color: white;
+}
+.gray_title {
+	background-color: #737582;
+	color: white;
+}
+form {
+	width: 90%;
+	margin: 4px auto;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 8px 0;
+	background-color: rgb(2, 69, 134);
+}
+.form_title {
+	text-align: left;
+	padding-left: 8px;
+}
+input[type=text], input[type=email], input[type=tel] {
+	margin: 4px 5% 0 5%;
+	font-size: 1em;
+	width: 90%;
+}
+select {
+	margin: 4px 5% 0 5%;
+	font-size: 1em;
+	width: 90%;
+}
+#privacidad {
+	font-size: 0.7em;
+}
+#obligatorios {
+	font-size: 0.5em;
+}
+#privacidad a{
+	color: white;
+}
+input[type=checkbox] {
+	margin: 4px;
+}
+input[type=submit] {
+	margin: 4px 5% 0 5%;
+	font-size: 1em;
+	width: 90%;
+	font-size: 1em;
+	color: white;
+	cursor: pointer;
+	border: none;
+	padding: 8px 0;
+}
+#llegar {
+	font-weight: bold;
+}
+#foot {
+	background-color: #024586;
+}
+
+#llamamos {
+	cursor: pointer;
+}
+#clicktocall {
+	display: none;
+	height: 90px;
+	width: 100%;
+	margin: 0;
+	border: none;
+	overflow: hidden;
+}
+
+#texto_privacidad {
+	position: absolute;
+	width: 96%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: white;
+	padding: 2%;
+	overflow-y: auto;
+	display: none;
+	cursor: pointer;
+}

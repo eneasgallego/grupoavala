@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "fuenteAvala";
+	src: url(../fonts/fuenteAvala.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "bebas";
+	src: url(../fonts/BebasNeue_Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "bebasBold";
+	src: url(../fonts/BebasNeue_Bold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "myriad";
+	src: url(../fonts/MyriadPro_Regular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "baron";
+	src: url(../fonts/BaronNeue_Bold.otf) format("opentype");
+}
+
+a {
+	text-decoration: none;
+}
+
+a img {
+	border-width: 0;
+}
+
