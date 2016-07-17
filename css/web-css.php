@@ -960,7 +960,7 @@
 		    margin: 4px auto;
 		    padding: 8px 0;
 		    text-align: center;
-		    width: 100%;
+		    width: 540px;
 	}
 
 	.tasador2 .form_title {
@@ -973,7 +973,7 @@
 		    list-style-type: none;
 		    margin: 0;
 		    padding: 0;
-		    width: 49%;
+		    width: 260px;
 	}
 
 	.tasador2 input[type="text"], .tasador2 input[type="email"], .tasador2 input[type="tel"], .tasador2 select {
@@ -982,13 +982,13 @@
 	}
 
 	.tasador2 input[type="text"], .tasador2 input[type="email"], .tasador2 input[type="tel"] {
-		    margin: 4px 5% 0;
-		    width: 90%;
+		    margin: 4px 4px 0;
+		    width: 240px;
 	}
 
 	.tasador2 select {
-		    margin: 4px 4.5% 0;
-		    width: 91%;
+		    margin: 4px 4px 0;
+		    width: 240px;
 	}
 
 	.tasador2 #privacidad {
