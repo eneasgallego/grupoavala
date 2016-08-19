@@ -1,64 +1,50 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>http://grupoavala.com/</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/como</loc>
-  <lastmod>2014-05-04T13:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/opciones</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/gestion</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/faq</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/blog/</loc>
-</url>
-<url>
-  <loc>http://grupoavala.com/franquicias</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/contacto</loc>
-  <lastmod>2014-05-04T13:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/index.html?pantalla=como</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/index.html?pantalla=opciones</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/index.html?pantalla=opciones&amp;seccion=empenarsin</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/index.html?pantalla=opciones&amp;seccion=empenar</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/index.html?pantalla=gestion&amp;seccion=gestion</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
-<url>
-  <loc>http://grupoavala.com/index.html?pantalla=gestion&amp;seccion=vender</loc>
-  <lastmod>2014-05-04T13:00:12+00:00</lastmod>
-</url>
+  <url>
+    <loc>http://grupoavala.com/</loc>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/como.php</loc>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/opciones.php</loc>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/gestion.php</loc>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/faq.php</loc>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/blog/</loc>
+    <lastmod>2016-08-18T02:51:44+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/franquicias.php</loc>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/contacto.php</loc>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/index.php</loc>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/blog/empeno-de-coches/</loc>
+    <lastmod>2016-08-18T02:51:42+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/blog/empenar-mi-coche/</loc>
+    <lastmod>2016-08-18T02:51:53+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://grupoavala.com/blog/grupo-avala/</loc>
+    <lastmod>2016-08-18T02:51:58+00:00</lastmod>
+  </url>
 </urlset>
