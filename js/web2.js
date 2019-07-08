@@ -15,6 +15,8 @@ var play = function () {
 			cargarGif();
 
 			prepararTasador();
+
+			doCarrusel();
 		});
 };
 
@@ -124,4 +126,19 @@ function prepararTasador() {
 		$('#fondo_texto_privacidad').css('height', $('body').height());
 		texto_privacidad.show();
 	});
+}
+
+function doCarrusel() {
+	setTimeout(function() {
+		var view = document.querySelector('#inicio-carrusel ul li.view');
+		var next = view.nextElementSibling;
+		if (!next) {
+			next = view.parentElement.firstElementChild;
+		}
+
+		view.classList.remove('view');
+		next.classList.add('view');
+
+		doCarrusel();
+	}, 5000)
 }

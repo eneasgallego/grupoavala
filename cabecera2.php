@@ -3,8 +3,8 @@
 		<div id="new-cabecera-telefonos" >
 			<img src="images/logo.png">
 			<ul id="new-cabecera-movil">
-				<li><a href="tel: +34900901085">900 901 085</a></li>
-				<li class="icono-whatsapp"><a href="tel: +34645521298">645 521 298</a></li><!--<img src="./images/icono_whatsapp.png">-->
+				<li><a href="tel: +34910327673">910 327 673</a></li>
+				<li class="icono-whatsapp"><a href="tel: +34691010620">691 010 620</a></li><!--<img src="./images/icono_whatsapp.png">-->
 				<!--<li><a href="tel: +34910327673">910 327 673</a></li>-->
 			</ul>
 		</div>

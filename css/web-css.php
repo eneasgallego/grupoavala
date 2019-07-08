@@ -1,4 +1,7 @@
 <style>
+    * {
+        box-sizing: border-box;
+    }
 	@font-face {
 		    font-family: "fuenteAvala";
 		    src: url("fonts/fuenteAvala.ttf") format("truetype");
@@ -1247,4 +1250,26 @@
 	.autoexclusivo {
 		display: none;
 	}
+    #inicio-carrusel ul {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+    }
+    #inicio-carrusel ul li {
+        display: none;
+        width: 100%;
+    }
+    #inicio-carrusel ul li.view {
+        display: inline-block;
+    }
+    #inicio-carrusel ul li img{
+        width: 100%;
+    }
+    #inicio-financiacion {
+        float: left;
+        width: 100%;
+    }
+    #inicio-financiacion .cartel-text {
+        margin-top: 0.75rem;
+    }
 </style>

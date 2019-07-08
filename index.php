@@ -21,7 +21,7 @@
 <meta content="avalacontucoche" name="Author">
 <meta content="Spanish" name="Language">
 
-<title>Empeños de Coches - Empeñar coche y vehículos</title>
+<title>Venta de Coches y vehículos</title>
 
 	<?php include "misc.php"; ?>
 	
@@ -49,67 +49,40 @@
 								</li>
 						</div>
 					</div>
-					<ul class="new-list">
-						<li>
-							<img src="images/icono_empenar_movil.png"/>
-							<div>
-								<h1>Empeño SIN CUSTODIA</h1>
-								<p>Modalidad de empeño en la que recibe dinero de inmediato por su coche sin tener que dejar de disfrutar de su vehículo. <a href="opciones.php#sincustodia">+info</a></p>
-							</div>						
-						</li>
-						<!--<li>
-							<img src="images/foto1p.jpg"/>
-							<div>
-								<h1>Empeño CON CUSTODIA</h1>
-								<p>Modalidad de empeño en la que usted recibe dinero urgente por su coche. <a href="opciones.php#concustodia">+info</a></p>
-							</div>						
-						</li>-->
-						<li>
-							<img src="images/icono_gestion_movil.png"/>
-							<div>
-								<h1>Gestión DE VENTA</h1>
-								<p>Gestionamos la venta de su vehículo, le adelantamos dinero del precio final de la venta. <a href="gestion.php#gestionventa">+info</a></p>
-							</div>						
-						</li>
-						<li>
-							<img src="images/icono_vender_movil.png"/>
-							<div>
-								<h1>Compramos SU COCHE</h1>
-								<p>Dinero al instante por su coche. <a href="gestion.php#vender">+info</a></p>
-							</div>						
-						</li>
-					</ul>
-					<div id="inicio-dercartel" class="cartel claro"
-						style="margin-top: 10px;">
-						<div id="inicio-dercartel-borde1" class="cartel-borde"></div>
-						<div id="inicio-dercartel-text0" class="cartel-text"
-							style="top: 4px">Somos los más económicos de España. Desde
-							90€.</div>
-						<div id="inicio-dercartel-borde2" class="cartel-borde"
-							style="top: 35px"></div>
-					</div>
-					<div id="inicio-der-stock" class="stock">
-						CONSULTE NUESTRO
-						<bold>STOCK DE VEHÍCULOS</bold>
-						<div id="inicio-der-stock-iconos" class="iconos stock-iconos">
-							<div class="separador iconos-border-top"></div>
-							<div class="icono" style="width: 33.333333333333336%">
-								<a href="http://autoexclusivo.coches.net/" target="_blank" rel="nofollow"><img
-									src="./images/cochesnet.png"></a>
-							</div>
-							<div class="icono" style="width: 33.333333333333336%">
-								<a
-									href="http://profesionales.autoscout24.es/el-taller-de-autoexclusivo/vehiculos#atype=C&amp;cid=14598&amp;ustate=U,N,A&amp;sort=price&amp;results=20&amp;page=1"
-									target="_blank" rel="nofollow"><img src="./images/autoscout.png"></a>
-							</div>
-							<div class="icono" style="width: 33.333333333333336%">
-								<a
-									href="http://www.segundamano.es/madrid/tiendas/?ca=28_s&amp;id=8072"
-									target="_blank" rel="nofollow"><img src="./images/segundamano.png"></a>
-							</div>
-						</div>
-					</div>
+                    <div id="inicio-carrusel">
+                        <ul>
+                            <li class="view">
+                                <img src="images/carrusel/carrusel1.jpg" alt="carrusel1"/>
+                            </li>
+                            <li>
+                                <img src="images/carrusel/carrusel2.jpg" alt="carrusel2"/>
+                            </li>
+                            <li>
+                                <img src="images/carrusel/carrusel3.jpg" alt="carrusel3"/>
+                            </li>
+                            <li>
+                                <img src="images/carrusel/carrusel4.jpg" alt="carrusel4"/>
+                            </li>
+                            <li>
+                                <img src="images/carrusel/carrusel5.jpg" alt="carrusel5"/>
+                            </li>
+                            <li>
+                                <img src="images/carrusel/carrusel6.jpg" alt="carrusel6"/>
+                            </li>
+                            <li>
+                                <img src="images/carrusel/carrusel7.jpg" alt="carrusel7"/>
+                            </li>
+                            <li>
+                                <img src="images/carrusel/carrusel8.jpg" alt="carrusel8"/>
+                            </li>
+                        </ul>
+                    </div>
 				</div>
+                <div id="inicio-financiacion" class="cartel">
+                    <div class="cartel-borde"></div>
+                    <div class="cartel-text">Financiación 100x100</div>
+                    <div class="cartel-borde"></div>
+                </div>
 			</div>
 			<div class="columna">
 				<div class="der">
@@ -131,7 +104,7 @@
 					<div id="inicio-textotexto" class="texto-bloque ">
 						En el
 						<bold>G.E. AVALA</bold>
-						nos dedicamos al empeño y compra-venta de coches de forma seria,
+						nos dedicamos a la compra-venta de coches de forma seria,
 						rápida y práctica. Contamos con toda la experiencia e
 						infraestructura necesarias para generar la confianza y seguridad
 						que nuestros clientes necesitan.<br>Tenemos opciones de
@@ -173,6 +146,37 @@
 				</div>
 			</div>
 		</div>
+        <div id="inicio-der-stock" class="stock">
+            CONSULTE NUESTRO
+            <bold>STOCK DE VEHÍCULOS</bold>
+            <div id="inicio-der-stock-iconos" class="iconos stock-iconos">
+                <div class="separador iconos-border-top"></div>
+                <div class="icono" style="width: 20%">
+                    <a href="https://www.coches.net/concesionario/avalamotor/" target="_blank" rel="nofollow"><img
+                                src="./images/cochesnet.png"></a>
+                </div>
+                <div class="icono" style="width: 20%">
+                    <a
+                            href="https://www.autoscout24.es/profesionales/grupo-empresarial-avala/vehiculos"
+                            target="_blank" rel="nofollow"><img src="./images/autoscout.png"></a>
+                </div>
+                <div class="icono" style="width: 20%">
+                    <a
+                            href="https://www.milanuncios.com/tienda/avala-motor-28950.htm"
+                            target="_blank" rel="nofollow"><img src="./images/milanuncios.png"></a>
+                </div>
+                <div class="icono" style="width: 20%">
+                    <a
+                            href="https://www.vibbo.com/tienda/?ca=28_s&id=38741"
+                            target="_blank" rel="nofollow"><img src="./images/vibbo.svg"></a>
+                </div>
+                <div class="icono" style="width: 20%">
+                    <a
+                            href="https://www.autocasion.com/profesional/avala-motor-1573276"
+                            target="_blank" rel="nofollow"><img src="./images/autocasion.png"></a>
+                </div>
+            </div>
+        </div>
 	</div>
 	
 	<?php $noPopUp=true; include "pie.php"; ?>
